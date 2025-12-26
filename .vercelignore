@@ -1,0 +1,24 @@
+# Ignore Python backend files - deploy these separately
+api/
+main.py
+requirements.txt
+prompt.txt
+question.txt
+analysis_script.py
+network_analysis.py
+tools/
+venv/
+__pycache__/
+*.py
+*.pyc
+*.log
+
+# Test data
+Financial Centers.json
+Hospitals Data.json
+Stock Market Data.json
+llm-code*.py
+
+# Environment
+.env
+.env.local
