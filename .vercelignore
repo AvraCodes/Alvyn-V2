@@ -1,24 +1,30 @@
-# Ignore Python backend files - deploy these separately
-api/
-main.py
-requirements.txt
-prompt.txt
-question.txt
-analysis_script.py
-network_analysis.py
-tools/
-venv/
+# Node / build artifacts
+node_modules/
+.next/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Python / backend (ignore completely)
+backend/
+.venv/
 __pycache__/
 *.py
 *.pyc
-*.log
 
-# Test data
-Financial Centers.json
-Hospitals Data.json
-Stock Market Data.json
-llm-code*.py
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
-# Environment
-.env
-.env.local
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
